@@ -1,0 +1,19 @@
+<!ELEMENT test-set (test*)>
+<!ATTLIST test-set 
+id ID #REQUIRED>
+
+<!ELEMENT test (note?, block+)>
+<!ATTLIST test 
+id ID #REQUIRED>
+
+<!ELEMENT block (note?, task+)>
+<!ATTLIST block
+id ID #REQUIRED>
+
+<!ELEMENT note EMPTY>
+<!ATTLIST note
+key IDREF #REQUIRED>
+
+<!ELEMENT task EMPTY>
+<!ATTLIST task
+key IDREF #REQUIRED>

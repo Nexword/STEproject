@@ -1,0 +1,29 @@
+<!ELEMENT task-set (task*)>
+<!ATTLIST task-set
+id ID #REQUIRED>
+
+<!ELEMENT task (question, (single-answer | multiple-answer | matching-answer | open-answer | single-semiopen-answer | multiple-semiopen-answer))>
+<!ATTLIST task
+id ID #REQUIRED>
+
+<!ELEMENT question EMPTY>
+<!ATTLIST question
+key IDREF  #REQUIRED>
+
+<!ELEMENT single-answer (option+)>
+<!ELEMENT multiple-answer (option+)>
+<!ELEMENT open-answer (open-option)>
+<!ELEMENT single-semiopen-answer (option+, open-option)>
+<!ELEMENT multiple-semiopen-answer (option+, open-option+)>
+<!ELEMENT matching-answer (matches, slots)>
+
+<!ELEMENT matches (option+)>
+<!ELEMENT slots (option+)>
+
+<!ELEMENT option EMPTY>
+<!ATTLIST option
+key IDREF #REQUIRED>
+
+<!ELEMENT open-option EMPTY>
+<!ATTLIST open-option
+key IDREF #REQUIRED>

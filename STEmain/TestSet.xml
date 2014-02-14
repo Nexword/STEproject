@@ -1,0 +1,14 @@
+<test-set id='001'>
+	<test id='001-01'>
+		<note key='Это первый тест, пока без ресурсов' />
+		<block id='B01'>
+			<note key='Это пояснениt к этому блоку теста B01' />
+			<task key='000A' />	
+			<task key='000B' />
+		</block>		
+		<block id='B02'>
+			<task key='000C' />	
+			<task key='000D' />
+		</block>
+	</test>
+</test-set>

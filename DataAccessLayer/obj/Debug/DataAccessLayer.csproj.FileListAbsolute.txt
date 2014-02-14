@@ -1,0 +1,5 @@
+D:\STE\STEProject\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+D:\STE\STEProject\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+D:\STE\STEProject\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+D:\STE\STEProject\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+D:\STE\STEProject\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

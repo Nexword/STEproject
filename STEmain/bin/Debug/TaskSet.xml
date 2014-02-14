@@ -1,0 +1,35 @@
+<task-set id='ts1'>
+	<task id='000A'>
+		<question key='Как вкладывать ресурсы правильно?' />
+		<single-answer>
+			<option key='Не знаю как' />
+			<option key='Почитать сайтец какой-нибудь умный' />
+			<option key='Методом тыка' />
+		</single-answer>
+	</task>
+	<task id='000B'>
+		<question key='Масштаб приложений пока не настроен' />
+		<multiple-answer>
+			<option key='Да' />
+			<option key='Нет' />
+			<option key='Да нет наверное' />
+			<option key='Да нет наверное, хотя' />
+		</multiple-answer>
+	</task>
+	<task id='000С'>
+		<question key='Введите что-нибудь полезное' />
+		<open-answer>
+			<open-option key='Ответ по умолчанию' />
+		</open-answer>
+	</task>
+		<task id='000D'>
+		<question key='Вам нравится составлять тесты ночью?' />
+		<single-semiopen-answer>
+			<option key='Да' />
+			<option key='Нет' />
+			<option key='Делаю в данный момент' />
+			<option key='Не выбирай' />
+			<open-option key='Напиши что-нибудь' />
+		</single-semiopen-answer>
+	</task>	
+</task-set>

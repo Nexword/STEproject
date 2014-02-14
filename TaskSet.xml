@@ -1,0 +1,65 @@
+<!DOCTYPE task-set PUBLIC "-//STE//Logical//1//TaskSet" "http://www.ste.org/docs/0.1/xml/dtd/TaskSet.dtd">
+
+<task-set id='###'>
+	<task id='###'>
+		<question key='####' />
+		<single-answer>
+			<option key='####' />
+			<option key='####' />
+			<option key='####' />
+		</single-answer>
+	</task>
+	<task id='###'>
+		<question key='####' />
+		<multiple-answer>
+			<option key='####' />
+			<option key='####' />
+			<option key='####' />
+			<option key='####' />
+		</multiple-answer>
+	</task>
+	<task id='###'>
+		<question key='####' />
+		<matching-answer>
+			<matches>
+				<option key='####' />
+				<option key='####' />
+				<option key='####' />
+				<option key='####' />
+				<option key='####' />
+			</matches>
+			<slots>
+				<option key='####' />
+				<option key='####' />
+				<option key='####' />				
+			</slots>
+		</matching-answer>
+	</task>
+	<task id='###'>
+		<question key='####' />
+		<open-answer>
+			<open-option key='####' />
+		</open-answer>
+	</task>
+		<task id='###'>
+		<question key='####' />
+		<single-semiopen-answer>
+			<option key='####' />
+			<option key='####' />
+			<option key='####' />
+			<option key='####' />
+			<open-option key='####' />
+		</single-semiopen-answer>
+	</task>
+		<task id='###'>
+		<question key='####' />
+		<multiple-semiopen-answer>
+			<option key='####' />
+			<option key='####' />
+			<option key='####' />
+			<option key='####' />
+			<open-option key='####' />
+			<open-option key='####' />
+		</multiple-semiopen-answer>
+	</task>
+</task-set>

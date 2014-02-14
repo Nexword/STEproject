@@ -1,0 +1,15 @@
+D:\STE\STEProject\STEmain\obj\Debug\STE.csprojResolveAssemblyReference.cache
+D:\STE\STEProject\STEmain\obj\Debug\MainWindow.baml
+D:\STE\STEProject\STEmain\obj\Debug\MainWindow.g.cs
+D:\STE\STEProject\STEmain\obj\Debug\App.g.cs
+D:\STE\STEProject\STEmain\obj\Debug\STEmain_MarkupCompile.cache
+D:\STE\STEProject\STEmain\obj\Debug\STEmain.g.resources
+D:\STE\STEProject\STEmain\obj\Debug\STE.Properties.Resources.resources
+D:\STE\STEProject\STEmain\obj\Debug\STE.csproj.GenerateResource.Cache
+D:\STE\STEProject\STEmain\obj\Debug\STEmain.exe
+D:\STE\STEProject\STEmain\bin\Debug\STEmain.exe.config
+D:\STE\STEProject\STEmain\bin\Debug\STEmain.exe
+D:\STE\STEProject\STEmain\bin\Debug\STEmain.pdb
+D:\STE\STEProject\STEmain\bin\Debug\DataAccessLayer.dll
+D:\STE\STEProject\STEmain\bin\Debug\DataAccessLayer.pdb
+D:\STE\STEProject\STEmain\obj\Debug\STEmain.pdb

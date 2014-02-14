@@ -1,0 +1,25 @@
+<!ELEMENT answer-value-set (task*)>
+
+<!ELEMENT task (single-answer | multiple-answer | matching-answer | open-answer | single-semiopen-answer | multiple-semiopen-answer)>
+<!ATTLIST task
+key IDREF #REQUIRED>
+
+<!ELEMENT single-answer (answer-value)>
+<!ELEMENT multiple-answer (answer-value+)>
+<!ELEMENT open-answer (answer-open-value)>
+<!ELEMENT single-semiopen-answer (answer-value | answer-open-value)>
+<!ELEMENT multiple-semiopen-answer (answer-value*, answer-open-value*)>
+<!ELEMENT matching-answer (answer-matching-value+)>
+
+<!ELEMENT answer-value EMPTY>
+<!ATTLIST answer-value
+value CDATA #REQUIRED>
+
+<!ELEMENT answer-open-value EMPTY>
+<!ATTLIST answer-open-value
+value CDATA #REQUIRED>
+
+<!ELEMENT answer-matching-value EMPTY>
+<!ATTLIST answer-matching-value
+match-value CDATA #REQUIRED
+slot-value CDATA #REQUIRED>

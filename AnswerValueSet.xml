@@ -1,0 +1,53 @@
+<!DOCTYPE answer-value-set PUBLIC "-//STE//Logical//1//AnswerValueSet" "http://www.ste.org/docs/0.1/xml/dtd/AnswerValueSet.dtd">
+
+<answer-value-set>
+	<task key='####'>
+		<single-answer>
+			<answer-value value='0' />
+		</single-answer>
+	</task>
+	<task key='####'>
+		<multiple-answer>
+			<answer-value value='0' />
+			<answer-value value='1' />
+			<answer-value value='3' />
+		</multiple-answer>
+	</task>
+	<task key='####'>
+		<matching-answer>
+			<answer-matching-value match-value='0' slot-value='0' />
+			<answer-matching-value match-value='2' slot-value='1' />
+			<answer-matching-value match-value='2' slot-value='2' />
+			<answer-matching-value match-value='3' slot-value='2' />		
+		</matching-answer>
+	</task>
+	<task key='####'>
+		<open-answer>
+			<answer-open-value value='Some string' />
+		</open-answer>
+	</task>
+	<task key='####'>
+		<single-semiopen-answer>
+			<answer-value value='2' />
+		</single-semiopen-answer>
+	</task>
+	<task key='####'>
+		<single-semiopen-answer>
+			<answer-open-value value='Some string' />
+		</single-semiopen-answer>
+	</task>
+	<task key='####'>
+		<multiple-semiopen-answer>
+			<answer-value value='2' />
+			<answer-value value='3' />
+			<answer-open-value value='Some string' />
+		</multiple-semiopen-answer>
+	</task>
+	<task key='####'>
+		<multiple-semiopen-answer>
+			<answer-value value='2' />
+			<answer-open-value value='Some string' />
+			<answer-open-value value='Some other string' />
+		</multiple-semiopen-answer>
+	</task>
+</answer-value-set>

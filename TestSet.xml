@@ -1,0 +1,16 @@
+<!DOCTYPE test-set PUBLIC "-//STE//Logical//1//TestSet" "http://www.ste.org/docs/0.1/xml/dtd/TestSet.dtd">
+
+<test-set id='###'>
+	<test id='###'>
+		<note key='####' />
+		<block id='###'>
+			<note key='####' />
+			<task key='####' />	
+			<task key='####' />
+		</block>		
+		<block id='###'>
+			<task key='####' />	
+			<task key='####' />
+		</block>
+	</test>
+</test-set>
